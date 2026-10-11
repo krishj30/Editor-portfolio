@@ -551,7 +551,7 @@ function Work() {
           </p>
 
           <h2>
-            client
+            Selected
             <br />
             <em>Work.</em>
           </h2>
