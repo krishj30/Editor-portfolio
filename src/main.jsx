@@ -26,19 +26,19 @@ const brandReels = [
   },
    {
     id: "brand-reel-02",
-    name: "Dettol 02",
+    name: "client 02",
     src: "/videos/dettol-2.mp4",
   },
 
    {
     id: "brand-reel-03",
-    name: "Dettol 03",
+    name: "Client 03",
     src: "/videos/Dettol-3.mp4",
   },
 
   {
     id: "brand-reel-04",
-    name: "Dettol 01",
+    name: "client 04",
     src: "/videos/Dettol-1.mp4",
   },
 
@@ -385,20 +385,18 @@ function Hero() {
   return (
     <section ref={ref} className="hero">
       <div className="hero-copy" style={{ opacity }}>
-        <p className="eyebrow">VIDEO EDITOR</p>
-        <h1>
-          Turning
-          <br />
-          Moments
-          <br />
-          Into <em>Forever.</em>
-        </h1>
+      <p className="eyebrow">VIDEO · MOTION · DESIGN</p>
+
+<h1>
+  Made to
+  <br />
+  <em>Stand Out.</em>
+</h1>
         <p className="lead">
-          Video editing that feels, connects, and stays — for the people and
-          stories that matter.
+          From scroll-stopping reels to cinematic videos, motion graphics, and bold designs — I bring ideas to life through visuals that connect, engage, and inspire.
         </p>
         <a className="pill" href="#work">
-          <span className="play">▶</span> Watch My Showreel
+          <span className="play">▶</span> Explore My Work
         </a>
         <div className="scrollhint">
           ↕{" "}
@@ -420,15 +418,13 @@ function Hero() {
           <span />
         </div>
         <Glass className="hero-screen main-screen">
-          <div className="screen-line">
-            GOOD
-            <br />
-            STORIES
-            <br />
-            <b>NEVER</b>
-            <br />
-            FADE
-          </div>
+         <div className="screen-line">
+  CREATE
+  <br />
+  <b>WITHOUT</b>
+  <br />
+  LIMITS.
+</div>
           <div className="screen-glow" />
         </Glass>
         <Glass className="hero-screen side-screen">
@@ -440,22 +436,8 @@ function Hero() {
         <div className="spark s2" />
         <div className="spark s3" />
       </motion.div>
-      <div className="side-note">
-        Same
-        <br />
-        Moments
-        <br />
-        <i>Different</i>
-        <br />
-        Feelings ♡
-      </div>
-      <div className="hero-index">
-        01
-        <br />
-        <span>02</span>
-        <br />
-        <span>03</span>
-      </div>
+
+     
     </section>
   );
 }
@@ -731,18 +713,19 @@ function About() {
     <br />
     Just <em>Editing.</em>
   </h2>
-  <p>
-    I’m <strong>Maahi Sadh</strong>, a video editor and visual storyteller
-    who believes every moment has a story. I focus on creating visuals
-    that feel real, beautiful and memorable.
-  </p>
+ <p>
+  I’m <strong>Maahi Sadh</strong>, a creative editor and designer working
+  across video, motion graphics, and visual design. From cinematic edits
+  and engaging reels to posters and social media creatives, I turn ideas
+  into visuals that capture attention and tell a story.
+</p>
   <div className="stats">
     <div>
       <b>2+</b>
       <span>Years Learning</span>
     </div>
     <div>
-      <b>20+</b>
+      <b>100+</b>
       <span>Projects</span>
     </div>
     <div>
@@ -937,7 +920,7 @@ function Process() {
       <div className="process-line">
         {[
           ["01", "Understand", "Your Vision", "♧"],
-          ["02", "Plan", "The Story", "☷"],
+          
           ["03", "Edit", "With Details", "✂"],
           ["04", "Review", "& Refine", "♡"],
           ["05", "Final", "Masterpiece", "✦"],
@@ -970,10 +953,8 @@ function Tools() {
     </h2>
 
     <p>
-      The tools help me create magic,
-      <br />
-      but the real magic is in the stories.
-    </p>
+  The tools behind my edits, designs, and creative projects.
+</p>
 
   </div>
 
@@ -1067,11 +1048,11 @@ function Contact() {
 
           <p className="eyebrow">LET'S WORK TOGETHER</p>
 
-          <h2>
+          <h3>
             Let's create
             <br />
             something <em>special.</em>
-          </h2>
+          </h3>
 
           <p className="contact-description">
             Have a project, idea, or story in mind?
@@ -1395,12 +1376,7 @@ function VideoPortfolioPage({ title, eyebrow, description, items }) {
                   <h2>{item.name}</h2>
                 </div>
 
-                <div className="real-video-details">
-                  <span>VIDEO</span>
-                  <span>2026</span>
-                  <span>CINEMATIC</span>
-                </div>
-
+               
               </div>
 
             </article>
@@ -1451,7 +1427,6 @@ const getThumbnail = (category) => {
           eyebrow="GRAPHIC DESIGN"
           title="Designs Made"
           accent="to Be Seen."
-          description="Choose a category and immediately see every piece of work inside it. Designs and mockups stay together — no unnecessary folders."
         />
 
         <div className="category-page-grid">
@@ -1641,7 +1616,7 @@ function App() {
             <VideoPortfolioPage
               eyebrow="BRAND REELS"
               title="Brand Reels"
-              description="Four brand reels. One focused page. The best reel is featured on the homepage, and all four are available here."
+              description="A collection of brand reels, each telling a unique story about the brand."
               items={brandReels}
             />
           }

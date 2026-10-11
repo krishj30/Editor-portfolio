@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
 :root {
-  --bg: #0b1020;
-  --navy: #152238;
-  --ivory: #f5f1e8;
-  --beige: #d9cbb8;
-  --blue: #7dd3fc;
-  --line: rgba(245, 241, 232, 0.14);
-  --muted: rgba(245, 241, 232, 0.62);
+  --bg: #172531;
+  --navy: #263746;
+  --ivory: #E9EEF2;
+  --beige: #C4D0DA;
+  --blue: #A8C5DA;
+  --line: rgba(233, 238, 242, 0.16);
+  --muted: #A9B5C0;
 }
 * {
   box-sizing: border-box;
@@ -70,7 +70,7 @@ button {
   backdrop-filter: blur(8px);
 }
 .brand {
-  font-family: "Playfair Display";
+  font-family: "Inter", sans-serif;
   font-size: 17px;
 }
 .brand span {
@@ -138,7 +138,7 @@ nav button:hover {
 .hero h1,
 h1,
 h2 {
-  font-family: "Playfair Display", serif;
+  font-family: "IBM Plex Serif", serif;
   font-weight: 500;
   letter-spacing: -0.04em;
 }
@@ -4941,4 +4941,443 @@ footer a {
 .about-copy strong {
   color: #7DD3FC;
   font-weight: 600;
+}
+
+
+
+/* =====================================
+   LIGHTER BLUE THEME
+===================================== */
+
+:root {
+  --bg: #182B40;
+  --navy: #233D56;
+  --ivory: #FFFFFF;
+  --beige: #DCE8F2;
+  --blue: #8ED8F8;
+  --muted: #C0CCDA;
+  --line: rgba(255, 255, 255, 0.18);
+}
+
+/* Main background */
+body {
+  background-color: #182B40;
+  color: #FFFFFF;
+}
+
+/* Headings stand out more */
+h1,
+h2,
+h3 {
+  color: #FFFFFF;
+}
+
+/* Highlight important words */
+h1 em,
+h2 em {
+  color: #8ED8F8;
+  font-style: italic;
+}
+
+/* Paragraph readability */
+p {
+  color: #D0DAE5;
+  line-height: 1.8;
+}
+
+/* Section labels */
+.eyebrow {
+  color: #8ED8F8;
+  letter-spacing: 2px;
+}
+
+/* Buttons */
+button,
+.hero-cta {
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+/* Cards and secondary surfaces */
+.project-card,
+.service-card,
+.contact-card {
+  background-color: #233D56;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* =====================================
+   MOBILE SPACING & READABILITY
+===================================== */
+
+@media (max-width: 768px) {
+  section {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  h1 {
+    font-size: clamp(42px, 10vw, 64px);
+    line-height: 1.08;
+    letter-spacing: -1.5px;
+  }
+
+  h2 {
+    font-size: clamp(32px, 8vw, 46px);
+    line-height: 1.15;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.85;
+  }
+
+  .eyebrow {
+    font-size: 10px;
+    letter-spacing: 1.8px;
+    margin-bottom: 20px;
+  }
+
+  /* Give sections breathing room */
+  .hero,
+  .about,
+  .services,
+  .work,
+  .contact {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  /* Prevent cards from feeling cramped */
+  .project-card,
+  .service-card,
+  .contact-card {
+    padding: 20px;
+    margin-bottom: 18px;
+  }
+
+  /* Improve spacing between grid items */
+  .projects-grid,
+  .services-grid {
+    gap: 22px;
+  }
+
+  /* Keep descriptions comfortable to read */
+  .hero-description,
+  .about-copy > p {
+    max-width: 100%;
+    margin-top: 22px;
+  }
+
+  /* Make buttons easier to tap */
+  button,
+  .hero-cta {
+    min-height: 46px;
+  }
+}
+
+/* ===== Dark Theme + High Text Contrast ===== */
+
+:root {
+  --bg: #080D18;
+  --navy: #101B2D;
+  --ivory: #F8FAFC;
+  --beige: #D5E0EC;
+  --blue: #7DD3FC;
+  --muted: #B8C4D6;
+  --line: rgba(255, 255, 255, 0.14);
+}
+
+/* Main background */
+body {
+  background-color: #080D18;
+  color: #F8FAFC;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4 {
+  color: #FFFFFF;
+}
+
+/* Highlighted words */
+h1 em,
+h2 em,
+h3 em {
+  color: #7DD3FC;
+  font-style: normal;
+}
+
+/* Paragraphs */
+p {
+  color: #D5E0EC;
+  line-height: 1.8;
+}
+
+/* Small section labels */
+.eyebrow {
+  color: #7DD3FC;
+  letter-spacing: 2px;
+}
+
+/* Cards and content boxes */
+.project-card,
+.service-card,
+.contact-card {
+  background: #101B2D;
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+/* Links */
+a {
+  color: #7DD3FC;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+/* Mobile readability */
+@media (max-width: 768px) {
+  h1 {
+    line-height: 1.12;
+  }
+
+  h2 {
+    line-height: 1.2;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  section {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+}
+
+/* Fix mobile hamburger menu */
+
+.menu {
+  display: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 1001;
+  background: transparent;
+  border: none;
+  color: #fff;
+  padding: 10px;
+}
+
+.menu i {
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin: 6px 0;
+  background: #fff;
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    position: relative;
+    z-index: 1000;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .nav nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 24px;
+    background: #080D18;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 18px;
+    z-index: 1000;
+  }
+
+  .nav nav.open {
+    display: flex;
+  }
+
+  .nav nav button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    background: transparent;
+    border: none;
+    padding: 12px 0;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .nav .create {
+    display: none;
+  }
+}
+/* =================================
+   MOBILE NAVIGATION — LEFT DRAWER
+================================= */
+
+@media (max-width: 768px) {
+
+  .nav {
+    position: relative;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 18px 22px;
+  }
+
+  /* Hamburger button */
+  .nav .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    width: 44px;
+    height: 44px;
+    padding: 8px;
+    flex-shrink: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 10001;
+  }
+
+  .nav .menu i {
+    display: block;
+    width: 24px;
+    height: 2px;
+    margin: 0;
+    background: #F8FAFC;
+    transition: transform 0.25s ease;
+  }
+
+  /* Hide desktop navigation by default */
+  .nav nav {
+    display: none;
+  }
+
+  /* Left-side drawer */
+  .nav nav.open {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: auto;
+    width: min(82vw, 320px);
+    height: auto;
+    min-height: 340px;
+    padding: 30px 26px;
+    box-sizing: border-box;
+
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 0;
+
+    background: #0B1020;
+    border: 1px solid rgba(125, 211, 252, 0.16);
+    border-top: 2px solid #7DD3FC;
+    border-radius: 0 0 12px 0;
+
+    box-shadow: 15px 20px 45px rgba(0, 0, 0, 0.4);
+    z-index: 10000;
+  }
+
+  /* Navigation links */
+  .nav nav.open button {
+    display: block;
+    width: 100%;
+    padding: 17px 0;
+    text-align: left;
+
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+
+    color: #E7EDF5;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+
+    cursor: pointer;
+    transition: color 0.2s ease, padding-left 0.2s ease;
+  }
+
+  .nav nav.open button:hover {
+    color: #7DD3FC;
+    padding-left: 8px;
+  }
+
+  .nav nav.open button:last-child {
+    border-bottom: none;
+  }
+
+  /* Hide the desktop CTA on mobile */
+  .nav .create {
+    display: none;
+  }
+
+  /* Prevent horizontal overflow */
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* Smaller phones */
+@media (max-width: 380px) {
+  .nav {
+    padding: 15px 16px;
+  }
+
+  .nav nav.open {
+    width: min(85vw, 300px);
+    padding: 24px 20px;
+  }
+}
+
+
+/* Real workspace image */
+.hero-art.workspace-art {
+  position: relative;
+  width: 100%;
+  height: 520px;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #080D18;
+}
+
+.hero-art.workspace-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+  .hero-art.workspace-art {
+    height: 320px;
+    margin-top: 25px;
+  }
 }
