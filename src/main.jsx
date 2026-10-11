@@ -492,7 +492,7 @@ function Work() {
  {
   number: "01",
   category: "BRAND REELS",
-  title: "Selected Work",
+  title: "client Work",
   video: "/videos/Client2.mp4",
   description:
     "Cinematic storytelling built for modern brands.",
@@ -546,9 +546,7 @@ function Work() {
       <div className="featured-header">
 
         <div>
-          <p className="eyebrow">
-            SELECTED WORK
-          </p>
+         
 
           <h2>
             Selected
@@ -558,10 +556,10 @@ function Work() {
         </div>
 
         <div className="featured-header-right">
-          <span>04 / SELECTED PROJECTS</span>
+          
 
           <p>
-            A selection of visual work,
+            A Collection of visual work,
             <br />
             crafted with intention.
           </p>
