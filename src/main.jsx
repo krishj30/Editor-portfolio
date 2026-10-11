@@ -354,7 +354,7 @@ function Nav() {
   return (
     <header className="nav">
       <Link to="/" className="brand">
-        MS <span>♡</span>
+        Maahi sadh<span></span>
       </Link>
       <nav className={open ? "open" : ""}>
         <button onClick={() => go("work")}>Work</button>
@@ -727,31 +727,32 @@ function About() {
   return (
     <Section id="about" className="about">
       <div className="about-copy">
-        <p className="eyebrow">ABOUT ME</p>
-        <h2>
-          More Than
-          <br />
-          Just <em>Editing.</em>
-        </h2>
-        <p>
-          I’m a video editor who believes every moment has a story. I focus on
-          creating visuals that feel real, beautiful and memorable.
-        </p>
-        <div className="stats">
-          <div>
-            <b>3+</b>
-            <span>Years Learning</span>
-          </div>
-          <div>
-            <b>100+</b>
-            <span>Projects</span>
-          </div>
-          <div>
-            <b>∞</b>
-            <span>Ideas to Explore</span>
-          </div>
-        </div>
-      </div>
+  <p className="eyebrow">ABOUT ME</p>
+  <h2>
+    More Than
+    <br />
+    Just <em>Editing.</em>
+  </h2>
+  <p>
+    I’m <strong>Maahi Sadh</strong>, a video editor and visual storyteller
+    who believes every moment has a story. I focus on creating visuals
+    that feel real, beautiful and memorable.
+  </p>
+  <div className="stats">
+    <div>
+      <b>2+</b>
+      <span>Years Learning</span>
+    </div>
+    <div>
+      <b>20+</b>
+      <span>Projects</span>
+    </div>
+    <div>
+      <b>∞</b>
+      <span>Ideas to Explore</span>
+    </div>
+  </div>
+</div>
       <div className="about-art">
         <div className="editing-window">
           <div className="window-top">
@@ -871,12 +872,12 @@ function Services() {
     [
       "▶",
       "Short & LongForm Content",
-      "Reels, Shorts, TikToks that stand out.",
+      "Reels, Shorts, Youtube videos, and more.",
     ],
     [
       "✦",
       "UI/UX Design",
-      "Turning ideas into emotional stories.",
+      "Intuitive, seamless, and user-focused digital experiences.",
     ],
   ];
 

@@ -4937,3 +4937,8 @@ footer a {
     font-size: 14px;
   }
 }
+
+.about-copy strong {
+  color: #7DD3FC;
+  font-weight: 600;
+}
