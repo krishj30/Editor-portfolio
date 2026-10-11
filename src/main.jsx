@@ -492,7 +492,7 @@ function Work() {
  {
   number: "01",
   category: "BRAND REELS",
-  title: "Client Work",
+  title: "Selected Work",
   video: "/videos/Client2.mp4",
   description:
     "Cinematic storytelling built for modern brands.",
