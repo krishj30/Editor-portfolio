@@ -22,31 +22,31 @@ const brandReels = [
   {
     id: "brand-reel-01",
     name: "Client 01",
-    src: "/videos/Client2.mp4",
+    src: "/media/client2.mp4",
     featured: true,
   },
    {
     id: "brand-reel-02",
     name: "client 02",
-    src: "/videos/dettol-2.mp4",
+    src: "/media/dettol-2.mp4",
   },
 
    {
     id: "brand-reel-03",
     name: "Client 03",
-    src: "/videos/Dettol-3.mp4",
+    src: "/media/dettol-3.mp4",
   },
 
   {
     id: "brand-reel-04",
     name: "client 04",
-    src: "/videos/Dettol-1.mp4",
+    src: "/media/dettol-1.mp4",
   },
 
   {
     id: "brand-reel-05",
     name: "Client 05",
-    src: "/videos/papa%20johns.mp4",
+    src: "/media/papa-johns.mp4",
   },
  
 
@@ -57,28 +57,28 @@ const motionGraphics = [
   {
     id: "motion-graphic-01",
     name: "Kinetic  Typography",
-    src: "/videos/Motions/kinetic.mp4",
+    src: "/media/motions/kinetic.mp4",
     featured: true,
   },
   {
     id: "motion-graphic-02",
     name: "Motion Poster",
-    src: "/videos/Motions/wednesday.mp4",
+    src: "/media/motions/wednesday.mp4",
   },
   {
     id: "motion-graphic-03",
     name: "HUD Animation",
-    src: "/videos/Motions/hud.mp4",
+    src: "/media/motions/hud.mp4",
   },
     {
     id: "motion-graphic-04",
     name: "Festival Post",
-    src: "/videos/Motions/christmas.mp4",
+    src: "/media/motions/christmas.mp4",
   },
     {
     id: "motion-graphic-05",
     name: "Product Ad",
-    src: "/videos/Motions/product2.mp4",
+    src: "/media/motions/product2.mp4",
   },
 ];
 
@@ -86,23 +86,23 @@ const videoEditing = [
   {
     id: "video-edit-01",
     name: "Spider-man edit",
-    src: "/videos/Video-edit/spider-man.mp4",
+    src: "/media/video-edit/spider-man.mp4",
     featured: true,
   },
   {
     id: "video-edit-02",
     name: "Vlog",
-    src: "/videos/Video-edit/jaipur.mp4",
+    src: "/media/video-edit/jaipur.mp4",
   },
   {
     id: "video-edit-03",
     name: "Movie Trailer",
-    src: "/videos/Video-edit/titantic.mp4",
+    src: "/media/video-edit/titantic.mp4",
   },
   {
     id: "video-edit-04",
     name: "Montage",
-    src: "/videos/Video-edit/spider.mp4",
+    src: "/media/video-edit/spider.mp4",
   },
   
 ];
@@ -476,7 +476,7 @@ function Work() {
   number: "01",
   category: "BRAND REELS",
   title: "Client work",
-  video: "/videos/Client2.mp4",
+  video: "/media/client2.mp4",
   description:
     "Cinematic storytelling built for modern brands.",
   path: "/brand-reels",
