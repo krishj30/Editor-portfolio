@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import { motion, useScroll, useTransform } from "framer-motion";
 import "./styles.css";
+import "./Effects.js";
 
 /* =========================================================
    PORTFOLIO DATA
@@ -474,7 +475,7 @@ function Work() {
  {
   number: "01",
   category: "BRAND REELS",
-  title: "Brand Reels",
+  title: "Client work",
   video: "/videos/Client2.mp4",
   description:
     "Cinematic storytelling built for modern brands.",
